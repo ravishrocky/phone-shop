@@ -1,0 +1,333 @@
+
+ul{
+
+  list-style-type: none;
+  margin: 0;
+  padding:0;   
+  background-color:white;
+  overflow: hidden;
+
+}
+
+li a{
+  display:inline;
+  float: right;
+  padding: 14px 16px;
+  font-size: 25px;
+  font-style: normal;
+  color: black;
+  text-decoration: none;
+}
+
+li a:hover{
+  color: lightskyblue
+}
+.heading{
+  background-image: url(https://media.istockphoto.com/id/514175379/photo/buying-smartphone.jpg?b=1&s=170667a&w=0&k=20&c=y29zVa-TVQVd0nDr2AZR3uuh5h_h5t0KG3sQvIULZko=);
+  background-size: cover;
+  padding-top:100px;
+  padding-bottom: 80px;
+}
+h1{
+  margin-bottom:50px;
+  margin-left: 30px;
+  color: white;
+  font-size: 80px;
+}
+p{
+  font-size: 30px;
+color: white;
+margin-left: 30px;
+}
+button{
+  margin: 30px;
+  border: 2px solid white;
+  padding-right: 30px;
+  padding-left:30px ;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  font-size: medium;
+  color: black;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-bottom:20px;
+  background-color: white;
+}
+.our p{
+  color: black;
+text-align:left;
+}
+h2{
+  color: black;
+text-align:center;
+font-size: 45px;
+margin-left: 50px;
+}
+.our img{
+  height: 300px;
+  float: left;
+  margin-right: 40px;
+}
+.our{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-left: 90px;
+}
+#button1{
+  padding-right: 30px;
+  padding-left:30px ;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  border: 2px solid black;
+  background-color: black;
+  color: white;
+margin-left: 130px;
+margin-bottom: 100px;
+}
+#button1:hover{
+  background-color: white;
+  border:2px solid white;
+  color: black;
+}
+h3{
+  color: black;
+  text-align: center;
+  font-size: 60px;
+  line-height: 100px;
+}
+#img3,#img4,#img5,#img6{
+  width: 320px;
+  height: 310px;
+  flex-wrap: wrap;
+  margin-right: 20px;
+  margin-left: 20px;
+  border-radius:8px ;
+  display: inline-block;
+}
+.seravice,.seravice1,.seravice2,.seravice3{
+  background-color: whitesmoke;
+  margin-left: 10px;
+  padding-bottom: 5px;
+  padding-top: 10px;
+  width: 360px;
+  border-radius: 12px;
+  cursor: pointer;
+ display: inline-block;
+}
+h5{
+  font-size: 30px;
+  margin-left: 20px;
+  line-height: 4px;
+}
+#p{
+  font-size:25px;
+  color: lightgray;
+  margin-left: 20px;
+  line-clamp: 0px;
+}
+.seravice:hover{
+  box-shadow: 5px 5px 10px whitesmoke;
+}
+.seravice1:hover{
+  box-shadow: 5px 5px 10px whitesmoke;
+}
+.seravice2:hover{
+  box-shadow: 5px 5px 10px whitesmoke;
+}
+.seravice3:hover{
+  box-shadow: 5px 5px 10px whitesmoke;
+}
+h6{
+  color: black;
+  text-align: center;
+  font-size: 60px;
+  line-height: 100px;
+  line-height:20px;
+}
+label{
+  padding: 10px;
+  line-height: 1px;
+  font-size: 30px;
+  color: rgb(15, 136, 210);
+}
+label:hover{
+  text-decoration: underline;
+  color: rgb(15,136,210);
+}
+.phones{
+  border: 1px solid black;
+  width:300px;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#img7{
+  margin-left: 30px;
+  margin-top: 5px;
+}
+#iphone{
+  color: black;
+  font-size: xx-large;
+  line-height: 3px;
+}
+#p1{
+  color:black;
+  line-height: 3px;
+}
+.phones1{
+  border: 1px solid black;
+  width:300px;
+  margin-left: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+   display: inline-block;
+}
+#img8{
+  margin-left: 30px;
+  margin-top: 5px;
+}
+#iphone{
+  color: black;
+  font-size: x-large;
+  line-height: 3px;
+}
+#img8{
+  height: 200px;
+  width: 100px;
+  margin-left: 90px;
+  margin-top: 5px;
+}
+.phones2{
+  border: 1px solid black;
+  width:300px;
+  margin-left: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+   display: inline-block;
+   padding-top: 41px;
+}
+#iphone1{
+  color: black;
+  font-size: x-large;
+  line-height: 3px;
+}
+#img9{
+  height: 200px;
+  width: 180px;
+  margin-left: 60px;
+  margin-top: 5px;
+}
+.phones3{
+  border: 1px solid black;
+  width:300px;
+  margin-left: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+   display: inline-block;
+   padding-top: 42px;
+}
+.phones1:hover{
+  box-shadow: 7px 7px 10px lightgrey;
+}
+.phones2:hover{
+  box-shadow: 7px 7px 10px lightgrey;
+}
+.phones3:hover{
+  box-shadow: 7px 7px 10px lightgrey;
+}
+#heading{
+  text-align: center;
+  color: black;
+  font-size: 50px;
+}
+#img10{
+  height: 260px;
+  width: 190px;
+  margin-left: 60px;
+  margin-top: 5px;
+  border-radius: 8px;
+}
+.phones4{
+  border: 1px solid black;
+  width:300px;
+  margin-left: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+   display: inline-block;
+   padding-top: 35px;
+}
+footer{
+  background-color: whitesmoke;
+  padding-bottom: 40px;
+  margin-top: 20px;
+}
+hr{
+  color: gray;
+}
+/* Create four equal columns that float next to each other */
+.coloumn {
+  float: left;
+  width: 25%;
+}
+#pro{
+  font-size: 25px;
+  margin-left: 20px;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.le{
+  text-align: center;
+  margin-bottom: 100px;
+}
+#p3{
+  color: black;
+}
+#p3:hover{
+  color: lightslategrey;
+  cursor: pointer;
+}
+#email{
+  color: black;
+  font-size: 20px;
+}
+#email:hover{
+  text-decoration: none;
+}
+input{
+  border: 2px solid wheat;
+  padding-left: 10px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 8px;
+}
+#id{
+  padding-right: 30px;
+  padding-left:30px ;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  border: 2px solid lightslategray;
+  background-color: lightslategray;
+  color: white;
+margin-left:10px;
+margin-bottom: 100px;
+}
+#id:hover{
+  background-color: beige;
+  color: black;
+  cursor: pointer;
+}
+#company{
+  color:black
+}
+
+#id:active{
+  background-color: beige;
+  color: black;
+  cursor: pointer;
+}
